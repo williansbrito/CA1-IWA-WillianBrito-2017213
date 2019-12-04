@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>STEP</title>
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/Step.css" rel="stylesheet">
+</head>
+
+<body background="img/ballet.jpg">
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+		<div class="container">	<a class="navbar-brand" href="#">STEP - Dance & Perfomance School</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">	<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"><a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a></li>
+					<li class="nav-item"><a class="nav-link" onclick="document.getElementById('id01').style.display='block'">Login</a></li> <!-- Opens the login block-->
+                    <li class="nav-item"><a class="nav-link" href="#">Classes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Page Content -->
+	<div class="container">
+		<div class="row d-flex justify-content-center">
+			<div class="col-lg-12 text-center">
+           
+				<h1 class="mt-5">Welcome to STEP - Dance & Performance School</h1>
+				<h3 class="lead"> </h3>
+			</div>
+			<div id="results" class="col-lg-8 text-center order-3"></div>
+		</div>
+	</div>
+
+
+
+
+
+    
+<!-- Container to include individual classes on the Step.xml-->
+<div class="container">
+		<div class="row d-flex justify-content-center">
+		<div class="col-lg-4 text-left order-1">
+				<form enctype="application/json" action="/post/json" method="post">
+					<div class="form-group">
+                        <p>Fill the form bellow to enroll in an individual class
+                        and select your option included in the table above after been subimited. Click in the button Enroll to continue</p> 
+
+						<select class="form-control" name="sec_n">
+							<option value="0">Ballet Dance</option>
+							<option value="1">Tap Dance</option>
+							<option value="2">Jazz Dance</option>
+							<option value="3">Morden Dance</option>
+						</select>
+					</div>
+                   
+                    
+					<div class="form-group">
+                        
+                        <input class="form-control" type="text" name="level" placeholder="Level">
+					</div>
+					<div class="form-group">
+						<input class="form-control" type="text" name="price" placeholder="Individual">
+					</div>
+					<button type="submit" class="btn btn-primary btn-block">Submit</button>
+                      <p>P.S: Prices of individual classes are determined separately</p>
+				</form>
+
+                <!--
+                    <button id="delete" class="btn btn-block btn-danger">Delete</button>
+                    <p class="text-muted">To delete an entree, click the required row first</p> -->
+		
+		</div>
+
+
+<!-- Reference from https://bootsnipp.com/snippets/a6Pdk-->
+    <div class="col-lg-4 text-center order-2">
+        <button class="btn-group" onclick="document.getElementById('id01').style.display='block'" >Enroll</button>
+    </div>
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img/avatar.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <button type="submit">New Profile</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+</div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+
+
+
+
+	<footer class="footer">
+		<div class="container">	<span class="text-muted">&copy; Willian Magela Silva Brito Student Number: 2017213</span>
+		</div>
+	</footer>
+	<!-- Bootstrap core JavaScript -->
+	<script src="jquery/jquery.min.js"></script>
+	<script src="jquery/table.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

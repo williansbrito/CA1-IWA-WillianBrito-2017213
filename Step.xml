@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<danceclasses>
+  <section name="Ballet Dance">
+    <entree>
+      <level>Beginner</level>
+      <price>100.00</price>
+    </entree>
+    <entree>
+      <level>Intermadiate</level>
+      <price>150.00</price>
+    </entree>
+    <entree>
+      <level>Advanced</level>
+      <price>150.00</price>
+    </entree>
+      </section>
+  <section name="Tap Dance">
+    <entree>
+      <level>Beginner</level>
+      <price>100.00</price>
+    </entree>
+    <entree>
+      <level>Intermadiate</level>
+      <price>150.00</price>
+    </entree>
+    <entree>
+      <level>Advanced</level>
+      <price>150.00</price>
+    </entree>
+     </section>
+  <section name="Jazz Dance">
+    <entree>
+      <level>Beginner</level>
+      <price>100.00</price>
+    </entree>
+    <entree>
+      <level>Intermadiate</level>
+      <price>150.00</price>
+    </entree>
+    <entree>
+      <level>Advanced</level>
+      <price>150.00</price>
+    </entree>
+  </section>
+  <section name="Morden Dance">
+    <entree>
+      <level>Beginner</level>
+      <price>100.00</price>
+    </entree>
+    <entree>
+      <level>Intermadiate</level>
+      <price>150.00</price>
+    </entree>
+    <entree>
+      <level>Advanced</level>
+      <price>150.00</price>
+    </entree>
+  </section>
+</danceclasses>
