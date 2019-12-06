@@ -1,57 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <danceclasses>
   <section name="Ballet Dance">
-    <entree>
+    <entree courseselect="true">
       <level>Beginner</level>
       <price>100.00</price>
     </entree>
-    <entree>
+    <entree courseselect="true">
       <level>Intermadiate</level>
       <price>150.00</price>
     </entree>
-    <entree>
+    <entree courseselect="true">
       <level>Advanced</level>
       <price>150.00</price>
     </entree>
-      </section>
+  </section>
   <section name="Tap Dance">
-    <entree>
-      <level>Beginner</level>
-      <price>100.00</price>
-    </entree>
-    <entree>
+    <entree courseselect="true">
       <level>Intermadiate</level>
       <price>150.00</price>
     </entree>
-    <entree>
+    <entree courseselect="true">
       <level>Advanced</level>
       <price>150.00</price>
     </entree>
-     </section>
+  </section>
   <section name="Jazz Dance">
-    <entree>
+    <entree courseselect="true">
       <level>Beginner</level>
       <price>100.00</price>
     </entree>
-    <entree>
+    <entree courseselect="true">
       <level>Intermadiate</level>
       <price>150.00</price>
     </entree>
-    <entree>
+    <entree courseselect="true">
       <level>Advanced</level>
       <price>150.00</price>
     </entree>
   </section>
   <section name="Morden Dance">
-    <entree>
+    <entree courseselect="true">
       <level>Beginner</level>
       <price>100.00</price>
     </entree>
-    <entree>
+    <entree courseselect="true">
       <level>Intermadiate</level>
       <price>150.00</price>
     </entree>
-    <entree>
+    <entree courseselect="true">
       <level>Advanced</level>
       <price>150.00</price>
     </entree>

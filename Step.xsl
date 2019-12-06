@@ -31,8 +31,12 @@
                                 </td>
                             </tr>
                             <xsl:for-each select="entree">
-                                <tr>
-                                   
+
+                                <tr id="{position()}">
+                                <xsl:attribute name="courseselect">
+                                    <xsl:value-of select="boolean(./@courseselect)" />
+                                </xsl:attribute>
+
                                     <td align="center">
                                         <input name="level0" type="checkbox"/>
                                     </td>

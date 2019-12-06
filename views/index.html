@@ -52,8 +52,8 @@
 		<div class="col-lg-4 text-left order-1">
 				<form enctype="application/json" action="/post/json" method="post">
 					<div class="form-group">
-                        <p>Fill the form bellow to enroll in an individual class
-                        and select your option included in the table above after been subimited. Click in the button Enroll to continue</p> 
+                        <p>Fill the form bellow to enrol in an individual class
+                        and select the entree included on the table above. Click in the button Enrol to continue</p> 
 
 						<select class="form-control" name="sec_n">
 							<option value="0">Ballet Dance</option>
@@ -75,16 +75,16 @@
                       <p>P.S: Prices of individual classes are determined separately</p>
 				</form>
 
-                <!--
+                
                     <button id="delete" class="btn btn-block btn-danger">Delete</button>
-                    <p class="text-muted">To delete an entree, click the required row first</p> -->
+                    <p>To delete a course, click the required row first and click on Delete button</p> 
 		
 		</div>
 
 
-<!-- Reference from https://bootsnipp.com/snippets/a6Pdk-->
+<!-- Code block used from https://bootsnipp.com/snippets/a6Pdk-->
     <div class="col-lg-4 text-center order-2">
-        <button class="btn-group" onclick="document.getElementById('id01').style.display='block'" >Enroll</button>
+        <button class="btn-group" onclick="document.getElementById('id01').style.display='block'" >Enrol</button>
     </div>
 <div id="id01" class="modal">
   
@@ -102,7 +102,7 @@
       <input type="password" placeholder="Enter Password" name="psw" required>
         
       <button type="submit">Login</button>
-      <button type="submit">New Profile</button>
+      <a type="submit" class="btn">New Profile</a>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
