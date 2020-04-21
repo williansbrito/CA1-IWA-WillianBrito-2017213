@@ -1,0 +1,32 @@
+{
+  "name": "CA1-IWA-WillianBrito-2017213",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Step.js",
+  "dependencies": {
+    "es-to-primitive": "^1.2.1",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.0",
+    "mongoose": "^5.9.10",
+    "path": "^0.12.7",
+    "xml2js": "^0.4.22",
+    "xslt-processor": "^0.11.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williansbrito/CA1-IWA-WillianBrito-2017213.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williansbrito/CA1-IWA-WillianBrito-2017213/issues"
+  },
+  "homepage": "https://github.com/williansbrito/CA1-IWA-WillianBrito-2017213#readme"
+}
